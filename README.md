@@ -3,6 +3,7 @@
 Bu proje, **Kaggle** üzerinden alınan [Video Game Sales](https://www.kaggle.com/datasets/gregorut/videogamesales) veri seti kullanılarak, global çapta video oyunlarının satış performanslarını incelemektedir. Proje kapsamında veri temizleme, görselleştirme ve trend analizi gibi temel veri bilimi adımları uygulanmıştır.
 
 ## 🔍 Kullanılan Veri Seti
+
 - **Kaynak:** Kaggle - Video Game Sales
 - **Boyut:** 16.598 satır, 11 sütun
 - **Öne çıkan sütunlar:**
@@ -14,6 +15,7 @@ Bu proje, **Kaggle** üzerinden alınan [Video Game Sales](https://www.kaggle.co
   - `Global_Sales`, `NA_Sales`, `EU_Sales`, `JP_Sales`, `Other_Sales`: Bölgesel satışlar (milyon adet)
 
 ## 🛠️ Kullanılan Araçlar ve Kütüphaneler
+
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
@@ -22,33 +24,43 @@ Bu proje, **Kaggle** üzerinden alınan [Video Game Sales](https://www.kaggle.co
 ## 📈 Gerçekleştirilen Analizler
 
 ### 🎮 Türlerdeki Oyun Sayıları
-![Türlerdeki Oyun Sayıları](01.png)
+
+![Türlerdeki Oyun Sayıları](grafikler/01.png)
 
 ### 💰 En Çok Satış Yapan Türler
-![En Çok Satış Yapan Türler](02.png)
+
+![En Çok Satış Yapan Türler](grafikler/02.png)
 
 ### 🕹️ En Çok Satış Yapan Platformlar
-![Platform Satışları](03.png)
+
+![Platform Satışları](grafikler/03.png)
 
 ### 🏢 En Çok Satış Yapan Yayıncılar
-![Yayıncılar](04.png)
+
+![Yayıncılar](grafikler/04.png)
 
 ### 📊 Yıllara Göre Global Satışlar
-![Yıllık Satış Trendleri](05.png)
+
+![Yıllık Satış Trendleri](grafikler/05.png)
 
 ### 🌍 Bölgelere Göre Toplam Satışlar
-![Bölgesel Satışlar](06.png)
+
+![Bölgesel Satışlar](grafikler/06.png)
 
 ### 🌐 Türlere Göre Bölgesel Dağılım
-![Tür-Bölge Dağılımı](07.png)
+
+![Tür-Bölge Dağılımı](grafikler/07.png)
 
 ### 📉 Yıllara Göre Tür Bazlı Satış Trendleri
-![Yıllık Tür Trendleri](08.png)
+
+![Yıllık Tür Trendleri](grafikler/08.png)
 
 ### 🧩 Platforma Göre Tür Dağılımı
-![Platform-Tür Dağılımı](09.png)
+
+![Platform-Tür Dağılımı](grafikler/09.png)
 
 ## 📌 Dosya Yapısı
+
 ```
 ├── vgsales.csv                 # Ham veri
 ├── Untitled.ipynb             # Veri analizi notebook'u
@@ -57,6 +69,7 @@ Bu proje, **Kaggle** üzerinden alınan [Video Game Sales](https://www.kaggle.co
 ```
 
 ## 📚 Nasıl Çalıştırılır?
+
 ```bash
 # Ortamı oluştur
 pip install -r requirements.txt
@@ -66,6 +79,7 @@ jupyter notebook Untitled.ipynb
 ```
 
 ## 📊 Sonuçlar
+
 - `Action` ve `Sports` türleri, oyun sayısı ve satış açısından öne çıkıyor.
 - `PS2`, `X360` ve `Wii` gibi platformlar en yüksek satışlara sahip.
 - Japonya'da RPG türü öne çıkarken, Kuzey Amerika'da Shooter türü daha popüler.
