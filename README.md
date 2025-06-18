@@ -1,3 +1,5 @@
+https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjQzOXg4YWJzeG95ajc2dHkzZ2ZoZ3ZzZzlqbjhlaTlpYW9pOW41YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/63JsfhYYLq0VOEgkpE/giphy.gif
+
 # 🎮 Video Game Sales Analysis
 
 Bu proje, **Kaggle** üzerinden alınan [Video Game Sales](https://www.kaggle.com/datasets/gregorut/videogamesales) veri seti kullanılarak, global çapta video oyunlarının satış performanslarını incelemektedir. Proje kapsamında veri temizleme, görselleştirme ve trend analizi gibi temel veri bilimi adımları uygulanmıştır.
