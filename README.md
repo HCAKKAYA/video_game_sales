@@ -67,10 +67,3 @@ Bu proje, **Kaggle** üzerinden alınan [Video Game Sales](https://www.kaggle.co
 ├── README.md                  # Proje açıklaması (bu dosya)
 ├── grafikler/01.png ~ 09.png            # Görseller
 ```
-
-## 📊 Sonuçlar
-
-- `Action` ve `Sports` türleri, oyun sayısı ve satış açısından öne çıkıyor.
-- `PS2`, `X360` ve `Wii` gibi platformlar en yüksek satışlara sahip.
-- Japonya'da RPG türü öne çıkarken, Kuzey Amerika'da Shooter türü daha popüler.
-- 2005–2010 yılları arasında satışlar zirve yaptı.
