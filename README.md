@@ -63,19 +63,9 @@ Bu proje, **Kaggle** üzerinden alınan [Video Game Sales](https://www.kaggle.co
 
 ```
 ├── vgsales.csv                 # Ham veri
-├── Untitled.ipynb             # Veri analizi notebook'u
+├── videoGameSales.ipynb             # Veri analizi notebook'u
 ├── README.md                  # Proje açıklaması (bu dosya)
-├── 01.png ~ 09.png            # Görseller
-```
-
-## 📚 Nasıl Çalıştırılır?
-
-```bash
-# Ortamı oluştur
-pip install -r requirements.txt
-
-# Jupyter Notebook aç
-jupyter notebook Untitled.ipynb
+├── grafikler/01.png ~ 09.png            # Görseller
 ```
 
 ## 📊 Sonuçlar
